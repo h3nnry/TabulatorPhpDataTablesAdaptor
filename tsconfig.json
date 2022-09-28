@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "importsNotUsedAsValues": "preserve",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "dom.iterable"
+    ],
+    "types": [
+      "node",
+      "jest",
+      "uuid",
+      "bootstrap5"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "TabulatorPhpDataTablesAdaptor",
+  "version": "1.0.0",
+  "description": "Adaptor for Tabulator.js work with php datatables",
+  "scripts": {
+    "test": "NODE_ENV=test karma start",
+    "build": "wbpack",
+    "start": "npm run build && node server.js"
+  },
+  "author": "h3nry",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.4",
+    "tabulator-tables": "5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4"
+  }
+}
